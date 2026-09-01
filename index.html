@@ -1,0 +1,332 @@
+
+<!DOCTYPE html>
+<html lang="ku" dir="rtl">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>Wedding Invitation</title>
+
+
+<style>
+
+/* =====================================================
+   RESET
+===================================================== */
+
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     WEDDING
+===================================================== -->
+
+<div class="wedding" id="wedding">
+
+
+    <!-- =================================================
+         FOUR TRIANGLES
+    ================================================== -->
+
+    <div class="panel top"></div>
+
+    <div class="panel bottom"></div>
+
+    <div class="panel left"></div>
+
+    <div class="panel right"></div>
+
+
+    <!-- =================================================
+         FIRST PAGE
+    ================================================== -->
+     <section class="content">
+
+        <div class="invitation">
+
+
+            <div class="ring">
+                💍
+            </div>
+
+
+            <h1>
+               وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا لِّتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً 
+            </h1>
+
+
+            <h2>
+                ❤️ نــــوژدا 💍 دلـــــژین❤️
+            </h2>
+
+
+            <p>
+               ب هیڤیا وێ چەندێ ئەڤ رۆژە ببیتە جوانترین بیرهاتنا ژیانا مە
+            </p>
+
+
+        </div>
+
+    </section>
+
+    <section class="content">
+
+        <div class="invitation">
+
+
+            <div class="ring">
+                💍
+            </div>
+
+
+            <h1>
+               سلاڤ و رێز بۆ هەمی هەڤال و کەس و کارێن عەزیز
+            </h1>
+
+
+            <h2>
+                ❤️ 
+ب دلەکێ پڕ ژ خۆشی و شادی، و ب مەرەما پێکئینانا ژیانەکا نووی، ئەم داخوازێ ژ هەوەیێن بەرێز دکەین کو دگەل مە د پشکدار بن د خۆشی و ئاهەنگا (نیشانیا) مە دا.
+پشکداربوونا هەوە د خۆشیا مە دا، دێ شانازی و بەختەوەریەکا مەزن دەتە مە و ئاهەنگا مە ب ئامادەبوونا هەوە دێ جوانتر و خەملیتر لێ هێت ❤️
+            </h2>
+
+
+            
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =================================================
+         SECTION 1 وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا لِّتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً 
+
+    ================================================== -->
+    
+   
+
+
+    <section class="section section-one">
+
+        <div class="section-content">
+
+
+            <div class="heart">
+                ❤️
+            </div>
+
+
+            <h2>
+               
+پەیمانا ژیانەکا نوو، مە ب دل گرێدایە
+خەملا ڤێ ئاهەنگێ ژی، ب هاتنا هەوە مایە
+            </h2>
+
+
+            <img src="../img/2.png" width="250px">
+
+            <h2>
+                 Dilzhin 💍 Nujdar
+            </h2>
+        </div>
+
+    </section>
+
+
+
+    <!-- =================================================
+         SECTION 2
+    ================================================== -->
+
+    <section class="section section-two">
+
+        <div class="section-content">
+
+
+            <div class="heart">
+                💕
+            </div>
+
+
+            <h2>
+               ژڤانێ ئاهەنگا مە
+            </h2>
+
+
+            <p>
+                ل هولا (هیزل) ل بێدارئ
+            </p>
+
+
+            <div class="date-box">
+                📅 ٢٠٢٦ / ٩ / ٤
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =================================================
+         SECTION 3
+    ================================================== -->
+
+    <section class="section section-three">
+
+        <div class="section-content">
+
+
+            <div class="heart">
+                💍
+            </div>
+
+
+            <h2>
+               جاڤەرێ هاتنا هەوەیێن بەرێزن
+            </h2>
+
+
+            <p>ب ئامادەبوونا هەوە ئاهەنگا مە دێ جوانتر و رۆهنتر لێ هێت، هاتنا هەوە مەزنترین شانازییە بۆ مە
+                
+                ❤️
+            </p>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =================================================
+         START BUTTON
+    ================================================== -->
+
+    <button
+        class="start-button"
+        id="startButton"
+        onclick="startWedding()">
+
+       پیروزە (الف مبروک)
+
+    </button>
+
+
+</div>
+
+
+
+<script>
+
+/* =====================================================
+   START WEDDING
+===================================================== */
+
+function startWedding(){
+
+    const wedding =
+        document.getElementById("wedding");
+
+    wedding.classList.add("open");
+
+}
+
+
+/* =====================================================
+   SCROLL ANIMATION
+===================================================== */
+
+const sections =
+    document.querySelectorAll(".section");
+
+
+const observer =
+    new IntersectionObserver(
+
+        function(entries){
+
+            entries.forEach(
+                function(entry){
+
+                    if(entry.isIntersecting){
+
+                        entry.target
+                            .classList
+                            .add("show");
+
+                    }
+
+                }
+            );
+
+        },
+
+        {
+            threshold:0.25
+        }
+
+    );
+
+
+/* =====================================================
+   OBSERVE ALL SECTIONS
+===================================================== */
+
+sections.forEach(
+    function(section){
+
+        observer.observe(section);
+
+    }
+);
+
+
+/* =====================================================
+   DISABLE SCROLL BEFORE OPEN
+===================================================== */
+
+document.body.style.overflowY = "hidden";
+
+
+/* =====================================================
+   ENABLE SCROLL AFTER OPEN
+===================================================== */
+
+document
+    .getElementById("startButton")
+    .addEventListener(
+        "click",
+        function(){
+
+            setTimeout(
+                function(){
+
+                    document.body.style.overflowY =
+                        "auto";
+
+                },
+                1700
+            );
+
+        }
+    );
+
+</script>
+
+
+</body>
+</html>
+```
